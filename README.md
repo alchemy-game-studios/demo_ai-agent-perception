@@ -8,7 +8,7 @@ The demo in this repository shows an implementation of a system to record, store
 
 A common use-case for this type of system is for implementing enemy agents for a stealth action game like Metal Gear Solid.  The agents can see and hear, and they can communicate with each other.  If an agent sees the player, they will take an action such as shoot toward the location or converge on the last known location of the player (even if the player has moved from since the last time they were seen).
 
-The example in this demo shows a Sight-based use-case for an Agent, and the ability to shoot in the direction of the position they last saw the player.  Other types of Perceptors can be created that focus on how as specific perction should be recorded in your experience, such as AudioPerceptors, TremorPerceptors, TelepathicPerceptors, AlarmPerceptors, etc.  When deciding on a next action, the Decision-Making algorithm can query this single interface to determine what information it knows.
+The example in this demo shows a Sight-based use-case for an Agent, and the ability to shoot in the direction of the position they last saw the player.  Other types of Perceptors can be created that focus on how s specific perction should be recorded in your game, such as AudioPerceptors, TremorPerceptors, TelepathicPerceptors, AlarmPerceptors, etc.  When deciding on a next action, the Decision-Making algorithm can query this single interface to determine what information it knows.
 
 ## Technology Used
 * Unity AI
