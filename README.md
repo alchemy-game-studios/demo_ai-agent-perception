@@ -2,7 +2,7 @@
 This respository is meant for demo purposes only.  It is not suitable for production and it is not guaranteed to run in Unity.
 
 ## Overview
-When an AI Agent needs to make decisions on what to do next, the chosen behavior aught to reflect what that Agent understands.  If the Agent doesn't know critical information, they should not be able to use that information when deciding what to do next.  This creates continuity for the player, and deepens rewards for the player if they can out-wit an Agent.
+When an AI Agent makes decisions on what to do next, the chosen behavior aught to reflect what that Agent understands.  If the Agent doesn't know critical information, they should not be able to use that information when deciding what to do next.  This creates continuity for the player, and deepens rewards for the player if they can out-wit an Agent.
 
 The demo in this repository shows an implementation of a system to record, store, and query information that an Agent knows.  The general concept is that the Agent contains a list of Perceptors that query the environment at a configurable rate.  The Perceptors create Perception Records when something of note is percieved.  These records contain metadata about the perception, such as time, location, and other filterable information.  Methods for querying this data is shown, and there is also support for sharing knowledge between AI Agents to simulate their ability to communicate.
 
